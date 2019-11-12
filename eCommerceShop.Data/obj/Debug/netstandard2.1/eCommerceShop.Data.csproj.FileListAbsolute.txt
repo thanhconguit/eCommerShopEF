@@ -1,0 +1,7 @@
+D:\ASP.NET\eCommerceShop.Data\bin\Debug\netstandard2.1\eCommerceShop.Data.deps.json
+D:\ASP.NET\eCommerceShop.Data\bin\Debug\netstandard2.1\eCommerceShop.Data.dll
+D:\ASP.NET\eCommerceShop.Data\obj\Debug\netstandard2.1\eCommerceShop.Data.AssemblyInfoInputs.cache
+D:\ASP.NET\eCommerceShop.Data\obj\Debug\netstandard2.1\eCommerceShop.Data.AssemblyInfo.cs
+D:\ASP.NET\eCommerceShop.Data\bin\Debug\netstandard2.1\eCommerceShop.Data.pdb
+D:\ASP.NET\eCommerceShop.Data\obj\Debug\netstandard2.1\eCommerceShop.Data.dll
+D:\ASP.NET\eCommerceShop.Data\obj\Debug\netstandard2.1\eCommerceShop.Data.pdb

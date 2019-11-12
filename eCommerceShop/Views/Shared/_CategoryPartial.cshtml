@@ -1,0 +1,16 @@
+﻿@model IEnumerable<eCommerceShop.Data.Models.Category>
+    <div class="sidebar-categories">
+        <div class="head">Browse Categories</div>
+        <ul class="main-categories">
+            @foreach (var item in Model)
+            {
+            <li class="main-nav-list">
+                <a asp-action="ItemList" asp-controller="Home" asp-route-id="@item.Id"> @item.Name</a>
+            </li>
+            
+            }
+            </div>
+</ul>
+    </div>
+
+  </div>

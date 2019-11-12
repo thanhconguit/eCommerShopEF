@@ -1,0 +1,52 @@
+﻿@model eCommerceShop.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<section id="form">
+<body>   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-form">
+                    <h3 class="billing-title text-center">Login</h3>
+                    <p class="text-center mt-80 mb-40">Welcome back! Sign in to your account </p>
+                    <form asp-controller="account" asp-action="login" method="post">
+                        <input type="text" placeholder="Email*" onfocus="this.placeholder=''" onblur="this.placeholder = 'Email*'" required class="common-input mt-20" asp-for="Login.Email" >
+                        <input type="password" placeholder="Password*" onfocus="this.placeholder=''" onblur="this.placeholder = 'Password*'" required class="common-input mt-20" asp-for="Login.Password">
+                        <button class="view-btn color-2 mt-20 w-100"><span>Login</span></button>
+                        <div class="mt-20 d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center"><input type="checkbox" class="pixel-checkbox" id="login-1"><label for="login-1">Remember me</label></div>
+                            <a href="#">Lost your password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="register-form">
+                    <h3 class="billing-title text-center">Register</h3>
+                    <p class="text-center mt-40 mb-30">Create your very own account </p>
+                    <form asp-controller="account" asp-action="register" method="post">
+                        <input type="text" placeholder="Full name*" onfocus="this.placeholder=''" onblur="this.placeholder = 'Full name*'" required class="common-input mt-20" asp-for="Register.FullName">
+                        <input type="email" placeholder="Email address*" onfocus="this.placeholder=''" onblur="this.placeholder = 'Email address*'" required class="common-input mt-20" asp-for="Register.Email">
+                        <input type="text" placeholder="Phone number*" onfocus="this.placeholder=''" onblur="this.placeholder = 'Phone number*'" required class="common-input mt-20" asp-for="Register.Phone">
+                        <input type="password" placeholder="Password*" onfocus="this.placeholder=''" onblur="this.placeholder = 'Password*'" required class="common-input mt-20" asp-for="Register.Password">
+                        <button class="view-btn color-2 mt-20 w-100"><span>Register</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.~/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="/vendor/bootstrap.min.js"></script>
+    <script src="/jquery.ajaxchimp.min.js"></script>
+    <script src="/jquery.nice-select.min.js"></script>
+    <script src="/jquery.sticky.js"></script>
+    <script src="/ion.rangeSlider.js"></script>
+    <script src="/jquery.magnific-popup.min.js"></script>
+    <script src="/owl.carousel.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</section>
+
